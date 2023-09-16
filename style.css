@@ -1,0 +1,189 @@
+ <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(0, 0, 33);
+            color:white;
+            font-family: poppins,sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height:80px;
+            background-color:rgb(12, 9, 115)
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 30px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+         color: white;
+        }
+        nav ul li a:hover{
+            text-decoration: none;
+         color: greenyellow;
+         font-size: 1.01rem;
+        }
+
+        main hr{
+            border: 0;
+            /* background-color: blueviolet; */
+            height: 1px;
+            margin: 40px 84px;
+        }
+        .left{
+            font-size:1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+           /* height: 100vh;*/
+            margin: 80px 0;
+                margin: 50px 0;
+        }
+        .firstsection >div{
+            width:30%;
+        }
+        .leftsection{
+            /* width: 50%;
+            height: 100%; */
+            /* background-color: rgb(245, 13, 48); */
+            font-size: 1.5rem;
+            margin:80px 0;
+        }
+.btn{
+            margin: 10px 0;
+            padding: 2px 6px;
+            border: 1px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            background-color: purple;
+        }
+        .rightsection img{
+            width: 80%;
+        
+           
+        }
+        .purple{
+        color: blueviolet;
+        }
+        .text-c{
+            color:gray;
+            margin: 10px;
+        }
+        #element
+        {
+            color:blueviolet;
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: 0 auto;
+            height: 80vh;
+        }
+        .thirdsection{
+            max-width: 80vw;
+            margin: 0 auto;
+            height: 30vh;
+
+        }
+        .secondsection h1{
+            font-size: 1.5rem;
+        }
+        .secondsection .box{
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .box .vertical{
+            background-color: white;
+            width: 1px;
+            height: 93px;
+            margin: 0 100px;
+        }
+        .imgtop{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            font-size: 1.2rem;
+            margin: 10px 0;
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+        .vertical-dec{
+            font-size: 1rem;
+            margin: 10px 0;
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            /* background-color:purple; */
+            /* height: 233px; */
+            background-color: rgb(12, 9, 115);
+            justify-content: space-evenly;
+        }
+        .footer{
+            display: flex;
+            /* justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(12, 9, 115); */
+            padding: 20px 122px;
+            justify-content: space-evenly;
+            
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 293px;
+        }
+        /* .footer-second ul li :{
+            margin: 10px 0;
+            color: white;
+           
+        } */
+        .footer-second ul li :hover{
+            margin: 10px 0;
+            color: orangered;
+        }
+        .footerright{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        .footer-second ul li a{
+            text-decoration: none;
+         color: white;
+        }
+        .edu{
+            margin: 10px 0;
+            color:blueviolet;
+        }
+    </style>

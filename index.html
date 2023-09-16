@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,800;1,200;1,400;1,800&display=swap" rel="stylesheet">
+   
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      
+        <nav>
+            <div class="left">
+                    Bhagyshri Curriculum Vitae
+            </div>
+            <div class="right">
+                
+                <ul>
+                  <li>  <a href="/index.html">Home</a></li>
+                    <li><a  href="/About.html">About</a></li>
+                  
+                   <li> <a  href="/Project.html">Projects</a></li>
+                   <li><a  href="/Contact.html">Contact</a></li>
+
+
+                </ul>
+            </div>
+        </nav>
+        <main>
+        <section class="firstsection">
+            <div  class="leftsection">Hi, My name is <span  class="purple">Bhagyshri</span> 
+                 <div>I am Passionate</div>
+                 <span id="element" ></span>
+                 <div class="button">
+                    <button class="btn" id ="downloadButton">DownLoad Resume</button>
+                    <button class="btn" id="visitGitHubButton">Visit GitHub</button>
+                    <button class="btn" id="visitLinkedInButton">Visit LinkedIn</button>
+                 </div>
+
+            </div>
+            <div class="rightsection"><img src="web1.jpg" alt=""></div>
+                 
+            </div>
+           
+        </section>
+        <hr/>
+        <section class="secondsection">
+            <span class ="text-c">What I have done so Far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical"><img class="imgtop" src="web.png" alt="">
+                <div class="vertical-title"> Asp Dot net developer (2016-2020)</div>
+                <!-- <div class="vertical-dec">created web app for multiple clainet using angular c# webapi restapi mvc architecture</div> -->
+                </div>
+                <div class="vertical"><img class="imgtop" src="web.png" alt="">
+                <div class="vertical-title"> MVC Dot net developer (2016-2023)</div>
+                <div class="vertical-dec"></div>
+                </div>
+                <div class="vertical"><img class="imgtop" src="web.png" alt="">
+                <div class="vertical-title">FULL STACK Dot net developer (2019-2023)</div>
+                <!-- <div class="vertical-dec">created web app for multiple clainet using angular c# webapi restapi mvc architecture</div> -->
+                </div>
+                <div class="vertical"><img class="imgtop" src="web.png" alt="">
+                <div class="vertical-title">Dot Net   AZURE developer (2020-2023)</div>
+                <!-- <div class="vertical-dec">created web app for multiple clainet using angular c# webapi restapi mvc architecture</div> -->
+                </div>
+                <div class="vertical"><img class="imgtop" src="web.png" alt="">
+                <div class="vertical-title">FullStack Dot net Developer & AZURE CLOUD developer (2020-2023)</div>
+                <!-- <div class="vertical-dec">created web app for multiple clainet using angular c# webapi restapi mvc architecture</div> -->
+                </div>
+
+            </div>
+        </section>
+        <hr/>
+        <section class="thirdsection">
+            <div style="margin-top:10px">Education</div>
+            <div class="edu">
+                <p>Bachelor in Computer Engineering (2012-2016)</p>
+                <p>Mumbai India</p>
+            </div>
+           
+        </section>
+        
+
+        </div>
+    </main>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    Bhagyshri  Developer Profile
+                </div>
+                <div class="footer-second">
+                    <ul >
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/About.html">About</a></li>
+                        <li><a href="/Project.html">Project</a></li>
+                        <li><a href="/Contact.html">Contact</a></li>
+                    
+                    
+                    </ul>
+                </div>
+
+                <!-- <div class="footer-third">
+                    
+                </div>
+
+                <div class="footer-forth">
+                    
+                </div> -->
+                <div class="footerright">
+                    <p>© 2021 Bhagyshri. All rights reserved.</p>
+                </div>
+
+
+
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['WebDeveloper','WebDesigner','FullStackDeveloper' ,'Azure CloudEngineer.'],
+          typeSpeed: 50,
+        });
+   
+      document.getElementById("downloadButton").addEventListener("click", function () {
+        // Define the file URL of your resume (replace with the actual URL)
+      //  var resumeUrl = "https://example.com/path-to-your-resume.pdf";
+        var resumeUrl="Bhagyshri_Prof_cv.pdf";
+    
+        // Create a hidden anchor element to trigger the download
+        var a = document.createElement("a");
+        a.style.display = "none";
+        a.href = resumeUrl;
+        a.download = "Bhagyshri_Prof_cv.pdf"; // Set the desired file name
+    
+        // Append the anchor to the document body and trigger the download
+        document.body.appendChild(a);
+        a.click();
+    
+        // Remove the anchor from the document body
+        document.body.removeChild(a);
+    });
+
+    document.getElementById("visitGitHubButton").addEventListener("click", function () {
+    // Define the GitHub URL you want to visit (replace with the actual URL)
+    var githubUrl = "https://github.com/bhagyshricompany";
+
+    // Open the GitHub URL in a new tab or window
+    window.open(githubUrl, "_blank");
+});
+
+
+document.getElementById("visitLinkedInButton").addEventListener("click", function () {
+    // Define the LinkedIn profile URL you want to visit (replace with the actual URL)
+    var linkedInUrl = "https://www.linkedin.com/in/bhagyshri-shukla-897b05106/";
+
+    // Open the LinkedIn profile URL in a new tab or window
+    window.open(linkedInUrl, "_blank");
+});
+    </script>
+    
+    
+       
+            
+</body>
+</html>
